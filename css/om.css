@@ -2,23 +2,32 @@
 .om {
     margin: 85px 10% 5% 10%;
     position: absolute;
-    text-align: center;
     width: auto;
     width: 80%;
+    padding: 0;
+}
+
+.hh {
+    padding: 1%;
+    margin: 0;
+    margin-bottom: 1%;
+    width: 998;
+    position: relative;
+    background-color: white;
+    border: 1px solid #624027;
+    border-radius: 4px;
 }
 
 .pf {
     padding: 1%;
-    margin: 0.5%;
-    
-    border-style: solid;
-    width: 46%;
+    margin: 0;
+    margin-bottom: 1%;
+    width: 47%;
     position: relative;
     float: left;
-    background-color: #ffffff;
-    border-style: #d44343;
+    background-color: white;
+    border: 1px solid #624027;
     border-radius: 4px;
-    border-width: thin;
 }
 
 .pf:nth-child(odd) {
@@ -35,52 +44,60 @@
     display: inline-block;
     float:left;
     box-sizing: border-box;
-    margin-top: 11px;
 }
 
+
 .img {
-    width: 170px;
+    height: 194px;
+    float: left;
 }
 
 .txt {
-    width: auto;
+    width: 46%;
+    padding: 0 1%;
+    float: left;
+}
+
+.txt p:first-child {
+    font-size: 1.5em;
+}
+
+.txt i:nth-child(2) {
+    font-size: 9pt;
 }
 
 @media (max-width: 800px) {
     .om {
-        margin: 8% 12% 3% 12%;
-        position: absolute;
-        text-align: center;
-        width: auto;
+        margin: 15px 12% 3% 12%;
+        width: 75%;
     }
 
     .pf {
-        padding: 1%;
-        margin-bottom: 2%;
-        border-style: solid;
+        padding: 10px;
         width: auto;
-        background-color: #ffffff;
-        border-style: #d44343;
-        border-radius: 4px;
-        border-width: thin;
+        height: auto;
+        margin-bottom: 2.5%;
     }
     
     .pf:first-child {
-        margin-top: -7%;
+        
     }
-
-    .img {
+    
+    .pf:nth-child(odd) {
         
     }
 
+    .img {
+        width: 170px;
+    }
+
     .txt {
-    
+        width: 100%;
+        height: auto;
     }
     
     .rad {
-    display: inline-block;
-    float:left;
-    box-sizing: border-box;
-    margin: 3.5% 0;
-}
+        display: inline-block;
+        box-sizing: border-box;
+    }
 }
