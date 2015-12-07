@@ -1,0 +1,86 @@
+
+.om {
+    margin: 85px 10% 5% 10%;
+    position: absolute;
+    text-align: center;
+    width: auto;
+    width: 80%;
+}
+
+.pf {
+    padding: 1%;
+    margin: 0.5%;
+    
+    border-style: solid;
+    width: 46%;
+    position: relative;
+    float: left;
+    background-color: #ffffff;
+    border-style: #d44343;
+    border-radius: 4px;
+    border-width: thin;
+}
+
+.pf:nth-child(odd) {
+    float: right;
+    margin-left: 0;
+}
+
+.pf:nth-child(even) {
+    float: left;
+    margin-right: 0;
+}
+
+.rad {
+    display: inline-block;
+    float:left;
+    box-sizing: border-box;
+    margin-top: 11px;
+}
+
+.img {
+    width: 170px;
+}
+
+.txt {
+    width: auto;
+}
+
+@media (max-width: 800px) {
+    .om {
+        margin: 8% 12% 3% 12%;
+        position: absolute;
+        text-align: center;
+        width: auto;
+    }
+
+    .pf {
+        padding: 1%;
+        margin-bottom: 2%;
+        border-style: solid;
+        width: auto;
+        background-color: #ffffff;
+        border-style: #d44343;
+        border-radius: 4px;
+        border-width: thin;
+    }
+    
+    .pf:first-child {
+        margin-top: -7%;
+    }
+
+    .img {
+        
+    }
+
+    .txt {
+    
+    }
+    
+    .rad {
+    display: inline-block;
+    float:left;
+    box-sizing: border-box;
+    margin: 3.5% 0;
+}
+}
