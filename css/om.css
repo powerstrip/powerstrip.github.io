@@ -1,9 +1,8 @@
 
 .om {
-    margin: 85px 10% 5% 10%;
+    margin: 85px 15% 10px 15%;
     position: absolute;
-    width: auto;
-    width: 80%;
+    width: 70%;
     padding: 0;
 }
 
@@ -11,11 +10,18 @@
     padding: 1%;
     margin: 0;
     margin-bottom: 1%;
-    width: 998;
     position: relative;
     background-color: white;
-    border: 1px solid #624027;
-    border-radius: 4px;
+    text-align: center;
+}
+
+.hh img {
+    width: 98%;
+}
+
+.hh h1 {
+    font-size: 2em;
+    font-family: sans-serif;
 }
 
 .pf {
@@ -26,8 +32,6 @@
     position: relative;
     float: left;
     background-color: white;
-    border: 1px solid #624027;
-    border-radius: 4px;
 }
 
 .pf:nth-child(odd) {
@@ -46,16 +50,17 @@
     box-sizing: border-box;
 }
 
-
 .img {
     height: 194px;
     float: left;
 }
 
 .txt {
+    font-family: sans-serif;
     width: 46%;
     padding: 0 1%;
     float: left;
+    margin-left: 7.6%;
 }
 
 .txt p:first-child {
@@ -64,6 +69,13 @@
 
 .txt i:nth-child(2) {
     font-size: 9pt;
+}
+@media (max-width: 1016px) {
+        .txt {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 800px) {
@@ -94,6 +106,7 @@
     .txt {
         width: 100%;
         height: auto;
+        margin-left: 0;
     }
     
     .rad {
