@@ -9,18 +9,18 @@ body {
 }
 
 .poss {
-    margin: 85px 25% auto 25%;
+    margin: 100px 25% 25% 25%;
     position: absolute;
     width: 50%;
     font-family: sans-serif;
-    height: 100%;
+    height: auto;
     background-color: white;
 }
 
 .rut {
     padding: 5%;
-    margin-bottom: 5%;
     vertical-align: middle;
+    
 }
 
 .rut h1 {
@@ -52,6 +52,7 @@ body {
         margin-left: 10px;
         margin-right: 10px;
         width: 93%;
+        
     }
     
 }

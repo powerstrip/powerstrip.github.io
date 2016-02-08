@@ -1,22 +1,22 @@
 .produkt-wrapper {
     margin: 85px 15% 5% 15%;
     position: absolute;
-    width: 70%;
-    padding: 0;
+    width: 60%;
+    padding: 1%;
     background: white;
 }
 
 .produkt-text {
-    padding: 1%;
+    padding: 1.5%;
     margin: 0;
-    width: auto;
     position: relative;
     float: left;
     background-color: white;
     border-radius: 4px;
+    width: auto;
 }
 
-.produkt-text img{
+.produkt-text img {
     width: 100%;
 }
 
